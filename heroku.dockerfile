@@ -1,4 +1,4 @@
-FROM docker:20
+FROM docker:20.10.8-alpine3.14
 
 RUN apk upgrade && \
     apk update && \
